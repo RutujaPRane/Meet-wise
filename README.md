@@ -1,5 +1,5 @@
 # Meetwise – AI-Powered Meeting Intelligence  
-### Master's Final Project – Rutuja Rane
+
 
 Meetwise is an AI-driven meeting analysis platform that automatically extracts **action items**, generates **Jira tickets**, and produces **concise summaries** from long meeting transcripts.  
 It is built using a modern, distributed, event-driven architecture integrating **React**, **Spring Boot**, **Kafka**, **Python LLM workers (Ollama)**, and **MongoDB**.
