@@ -1,0 +1,63 @@
+19:15:35 So let's go over our action items for
+19:15:40 this week.
+19:15:42 So the first thing that I have is
+19:15:46 There's a bug that has been reported by the user.
+19:15:49 and apparently
+19:15:52 trade UI is slow.
+19:15:55 And it gets slow for like certain queries
+19:15:59 And so I think the issue maybe is not maybe in the UI layer, but like maybe
+19:16:07 in the middleware where
+19:16:10 in the elastic query it may be some having some issues there
+19:16:15 So I think that's where
+19:16:17 we should look.
+19:16:20 So yeah, I mean…
+19:16:22 Shamir, can you pick that up?
+19:16:24 for next week i think
+19:16:28 we should resolve it pretty soon. So keep this
+19:16:32 on a high priority.
+19:16:34 Okay, thank you.
+19:16:36 Yeah. The other thing like uh apart from that um
+19:16:41 there's an enhancement that we can
+19:16:43 made to our contract store publisher.
+19:16:47 and basically right now we are right now
+19:16:49 publishing the payment objects
+19:16:52 But once the trade gets cancelled or the trade gets over, the invalid payments, they need to be cancelled.
+19:17:01 So we should make a flow or make an announcement to publish the cancellations.
+19:17:07 of those objects as well. So I think that can be really helpful with that data
+19:17:14 um you know getting a data consistent as well so yeah let's
+19:17:18 get on it.
+19:17:21 I think…
+19:17:23 Dinkya Rahul, you can pick that up.
+19:17:27 This is like a medium priority, you know, test it out well and
+19:17:33 Yeah, we can like maybe in the next two weeks
+19:17:36 We can discuss whatever you have thought.
+19:17:41 All right. So now let's talk. So my updates. I was looking on
+19:17:46 the infrastructure migration and I was able to
+19:17:51 run the trade booking application and
+19:17:56 rel7 host.
+19:17:58 And yeah, so I'm basically working from continuing my work from last week.
+19:18:05 And it's expected to complete maybe within the next week.
+19:18:10 that you get it done and move on to my next task.
+19:18:14 So one thing I also noticed was
+19:18:18 we can make certain, you know.
+19:18:22 announcement on the trade UI.
+19:18:26 One of them is the page size.
+19:18:30 So currently we are loading like 50 trades whenever a user hits
+19:18:35 the search button
+19:18:37 And I think users would like to see
+19:18:40 a little bit more so maybe like we can increase that to
+19:18:44 from 50 to 100.
+19:18:46 So yeah, let's try that i think that
+19:18:49 is that can be like a straightforward task like one
+19:18:52 take long.
+19:18:54 It's going to be, you know, in the next couple of days we can try to get it done.
+19:18:59 So yeah, let me know whoever wants to pick that and
+19:19:05 Yeah.
+19:19:07 Let's get started on it.
+19:19:09 Cool. Okay. So those were like all the action items that i had
+19:19:14 No.
+19:19:15 there is one more thing on the agenda.
+19:19:20 And yeah, so we have a
+19:19:22 deem dinner plan tomorrow so
+19:19:24 Make sure you guys are there.
+19:19:28 All right.

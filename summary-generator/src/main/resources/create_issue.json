@@ -1,0 +1,59 @@
+
+POST
+https://cubouldergrad.atlassian.net/rest/api/3/issue?updateHistory=true&applyDefaultValues=false&skipAutoWatch=true
+https://cubouldergrad.atlassian.net/browse/KAN-1/issue/10000
+
+
+# Bug Issue Type, Reporter/Assignee Users figure out, Priority
+{
+  "fields": {
+    "project": {
+      "id": "10000"
+    },
+    "issuetype": {
+      "id": "10001"
+    },
+    "summary": "TEST Ticket",
+    "description": {
+      "version": 1,
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "TEST Ticket Created for TESTING Purpose"
+            }
+          ]
+        }
+      ]
+    },
+    "assignee": {
+      "id": "712020:ccda6e83-08c8-42c4-8f10-0957aac0bef2"
+    },
+    "labels": [],
+    "reporter": {
+      "id": "712020:5ff16db6-863b-4672-a6bb-635a5a4bb490"
+    },
+    "customfield_10021": []
+  },
+  "update": {},
+  "watchers": [],
+  "externalToken": "0.6794330461416394"
+}
+
+
+
+
+Disable Cache
+276 requests
+33.01 MB / 4.99 MB transferred
+Finish: 3.07 min
+
+1
+
+{"id":"10000","key":"KAN-1","self":"https://cubouldergrad.atlassian.net/rest/api/3/issue/10000"}
+
+
+

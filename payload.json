@@ -1,0 +1,25 @@
+{
+  "fileId": "4f45444d-2e5b-4b3b-9036-c62660e3c188",
+  "summary": "Final meeting summary",
+  "chunkTOs": [
+    {
+      "chunkId": "69377b369aaf9a7dce58311b",
+      "chunkItems": [
+        {
+          "issueType": "Bug",
+          "assignee": "Unassigned",
+          "priority": "High",
+          "description": "There's a bug that has been reported by the user and middleware where elastic query may have some issues.",
+          "summary": "Trade UI slow / elastic issue"
+        },
+        {
+          "issueType": "Enhancement",
+          "assignee": "Dinkya Rahul",
+          "priority": "Medium",
+          "description": "We should make a flow or announcement to publish cancellations of invalid payment objects once the trade gets cancelled or over.",
+          "summary": "Cancelling Invalid Payment Objects"
+        }
+      ]
+    }
+  ]
+}

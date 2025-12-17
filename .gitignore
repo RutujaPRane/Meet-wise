@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+*/node_modules/*
+
+# Env & secrets
+.env
+*.pem
+application.properties
+application-local.properties
+application-dev.properties
