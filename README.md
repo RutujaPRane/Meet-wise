@@ -119,17 +119,14 @@ cd summary-generator
 mvn spring-boot:run
 
 
-Backend runs at:
-
-http://localhost:9000
 
 
 # 🔧 1. Start MongoDB (Docker)
 
 ```bash
 docker run --name mongodb -d -p 27017:27017 mongo
- 
-Start Kafka & Zookeeper
+```
+# Start Kafka & Zookeeper
 
 From the project root (where the kafka-docker-compose.yml file is):
 
@@ -150,13 +147,13 @@ kafka-topics --create --topic summary.generator.events.summary --bootstrap-serve
 exit
 
 
-## Start the Spring Boot Backend
+# Start the Spring Boot Backend
 
 cd summary-generator
 mvn clean install
 mvn spring-boot:run
 
-## Start Python LLM Workers
+# Start Python LLM Workers
 
 cd llmService
 pip install -r requirements.txt
@@ -167,7 +164,7 @@ python3 action_items_worker.py
 cd llmService
 python3 summaryPromptService.py
 
-## Start Front end 
+# Start Front end 
 
 cd front-end
 npm install
