@@ -129,44 +129,41 @@ docker run --name mongodb -d -p 27017:27017 mongo
 # Start Kafka & Zookeeper
 
 From the project root (where the kafka-docker-compose.yml file is):
-
+```bash
 docker-compose -f kafka-docker-compose.yml up -d
-
+```
 
 (Optional, only first time) – create topics:
-
+```bash
 docker exec -it kafka bash
-
+```
 
 Inside the container:
-
+```bash
 kafka-topics --create --topic llm_service.events.generate.action.items --bootstrap-server localhost:9092
 kafka-topics --create --topic llm_service.events.generate.summary --bootstrap-server localhost:9092
 kafka-topics --create --topic summary.generator.events.action.items --bootstrap-server localhost:9092
 kafka-topics --create --topic summary.generator.events.summary --bootstrap-server localhost:9092
 exit
-
+```
 
 # Start the Spring Boot Backend
-
+```bash
 cd summary-generator
 mvn clean install
 mvn spring-boot:run
-
+```
 # Start Python LLM Workers
-
+```bash
 cd llmService
 pip install -r requirements.txt
-
-cd llmService
 python3 action_items_worker.py
-
-cd llmService
 python3 summaryPromptService.py
-
+```
 # Start Front end 
-
+```bash
 cd front-end
 npm install
 npm run dev
+```
 
