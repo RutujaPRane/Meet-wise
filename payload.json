@@ -14,7 +14,7 @@
         },
         {
           "issueType": "Enhancement",
-          "assignee": "Dinkya Rahul",
+          "assignee": "Dinkyaa Rahul",
           "priority": "Medium",
           "description": "We should make a flow or announcement to publish cancellations of invalid payment objects once the trade gets cancelled or over.",
           "summary": "Cancelling Invalid Payment Objects"
