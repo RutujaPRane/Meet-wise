@@ -1,4 +1,4 @@
-# Meetwise – AI-Powered Meeting Intelligence  
+# Meetwise – AI-Powered Conversation Intelligence Platform  
 
 
 Meetwise is an AI-driven meeting analysis platform that automatically extracts **action items**, generates **Jira tickets**, and produces **concise summaries** from long meeting transcripts.  
